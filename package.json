@@ -1,0 +1,24 @@
+{
+	"name": "yl-tools",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"keywords": [
+		"lerna",
+		"tools",
+		"yl"
+	],
+	"author": "",
+	"license": "ISC",
+	"description": "yl-tools/lib",
+	"dependencies": {
+		"lerna": "^6.5.1"
+	},
+	"workspaces": [
+		"packages/*"
+	],
+	"private": true,
+	"npmClient": "yarn"
+}
